@@ -45,22 +45,25 @@ list_of_Unicode_emojis = emojis.list_of_emojis
 # it's kind of slow but effective
 
 def getEmojisFromText(string_of_text):
-    sequences_list = regex.findall(r'\X', string_of_text) # break into sequences
-    emoji_list_w_numbers =list(filter(all_emojis_pattern.match, sequences_list)) # get emojis plus any numbers
-    # fix any numbers that are actually emoji keycaps in the text
-    exclude_numbers =  ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', "*", "#"]
-    temp_emoji_list = []
-    for seq in emoji_list_w_numbers:
-        if seq not in exclude_numbers:
-            temp_emoji_list.append(seq)
-    # make sure emojis are Unicode emojis
-    emojis_to_fix = set(temp_emoji_list).difference(set(temp_emoji_list).intersection(emojis.list_of_emojis))
-    emoji_list = []
-    for e in temp_emoji_list:
-        if e not in emojis_to_fix:
-            emoji_list.append(e)
-        else:
-            emoji_list.append(fixDuplicateEmoji(e))
+    try:  
+        sequences_list = regex.findall(r'\X', string_of_text) # break into sequences
+        emoji_list_w_numbers =list(filter(all_emojis_pattern.match, sequences_list)) # get emojis plus any numbers
+        # fix any numbers that are actually emoji keycaps in the text
+        exclude_numbers =  ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', "*", "#"]
+        temp_emoji_list = []
+        for seq in emoji_list_w_numbers:
+            if seq not in exclude_numbers:
+                temp_emoji_list.append(seq)
+        # make sure emojis are Unicode emojis
+        emojis_to_fix = set(temp_emoji_list).difference(set(temp_emoji_list).intersection(emojis.list_of_emojis))
+        emoji_list = []
+        for e in temp_emoji_list:
+            if e not in emojis_to_fix:
+                emoji_list.append(e)
+            else:
+                emoji_list.append(fixDuplicateEmoji(e))
+    except:
+        emoji_list = []
     return emoji_list
     
 # function to get sorted list of unique emojis from list of emojis

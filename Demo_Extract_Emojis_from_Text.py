@@ -54,7 +54,7 @@ df = pd.read_csv('./sample_data/sample_csv_data_w_emojis_utf8.csv')
 #df = pd.read_excel('./sample_data/sample_xlsx_data_w_emojis.xlsx')
 
 print(df.shape)
-df.head()
+df.head(10)
 
 
 # In[5]:
