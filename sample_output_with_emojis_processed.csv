@@ -1,0 +1,116 @@
+rownum,text,userid,emojis_list,unique_emojis_list,emoji_present,number_of_emojis_used
+1,Show your hands panther fans 🤚,1,['🤚'],['🤚'],True,1
+2,so many people,2,[],[],False,0
+3,no foolin! ⬇️ He’s not playing. ,3,['⬇️'],['⬇️'],True,1
+4,Time for happy hour! Going to Rossi's,4,[],[],False,0
+5,snowtastrophe out there be carefulz 🌨❄️,5,"['🌨️', '❄️']","['❄️', '🌨️']",True,2
+6, No Duh🤷🏻‍♂️ Who cares,20,['🤷🏻\u200d♂️'],['🤷🏻\u200d♂️'],True,1
+7,This is my fav place 🍜🍲😋 ❤️,24,"['🍜', '🍲', '😋', '❤️']","['❤️', '🍜', '🍲', '😋']",True,4
+8, 💥UPDATE! 💥 this breaking news just in that ,31,"['💥', '💥']",['💥'],True,2
+9,Today!👇👇👇  ,33,"['👇', '👇', '👇']",['👇'],True,3
+10,everyone is so excited to be here at the rally,35,[],[],False,0
+11,☺️ 5 days left and anxiously waiting,52,['☺️'],['☺️'],True,1
+12,This place is so good. Best pizza and drinks ever.,62,[],[],False,0
+13,😠  Nope!  Not now. Not here 📍someurl,72,"['😠', '📍']","['📍', '😠']",True,2
+14,Who wants to play ⚽️🏃🏾‍♂️,85,"['⚽', '🏃🏾\u200d♂️']","['⚽', '🏃🏾\u200d♂️']",True,2
+15,right  🤣 wrong on so many levels!,89,['🤣'],['🤣'],True,1
+16,🙄,1,['🙄'],['🙄'],True,1
+17,All the people out in the park today is sing of spring. 🏔🌲🌳,17,"['🏔️', '🌲', '🌳']","['🌲', '🌳', '🏔️']",True,3
+18,dirty cars 👉 wash them,88,['👉'],['👉'],True,1
+19,So much work so little time,24,[],[],False,0
+20,barbacoa wit suzm chili sauce! So good. So hot!  🌮🌶🥵you got me tony's tacos!,7,"['🌮', '🌶️', '🥵']","['🌮', '🌶️', '🥵']",True,3
+21,If you here for the rally raise your hands for blue 🤚🔵,2,"['🤚', '🔵']","['🔵', '🤚']",True,2
+22,💪hoping he wins 🙏 💪vote red 🙏 💪vote now🙏  🔴,3,"['💪', '🙏', '💪', '🙏', '💪', '🙏', '🔴']","['💪', '🔴', '🙏']",True,7
+23,She forgot to bring it!!!,4,[],[],False,0
+24,🚨EMERGENCY ALERT🚨  Weather report flash flooding.,11,"['🚨', '🚨']",['🚨'],True,2
+25,she is going to rock this today 🔥💥🔥 so proud these days ⭐️❤️⭐️  ,13,"['🔥', '💥', '🔥', '⭐', '❤️', '⭐']","['❤️', '⭐', '💥', '🔥']",True,6
+26,Get out the Catholic vote today ✝️ ❤️ Vote Blue!🔵,15,"['✝️', '❤️', '🔵']","['✝️', '❤️', '🔵']",True,3
+27,Coffee time ☕️🍩,20,"['☕', '🍩']","['☕', '🍩']",True,2
+28,🚨UPDATE! It's all 💩so not happy 😡🥾🐄,31,"['🚨', '💩', '😡', '🥾', '🐄']","['🐄', '💩', '😡', '🚨', '🥾']",True,5
+29,Today!👇👇👇,66,"['👇', '👇', '👇']",['👇'],True,3
+30,We love to celebrate at Rossi! 🍻🥂🎉,74,"['🍻', '🥂', '🎉']","['🍻', '🎉', '🥂']",True,3
+31,🌅 Good morning beautiful. Time to rise and shine and get stuff done.,91,['🌅'],['🌅'],True,1
+32,there you have it 💨💨 just like that 🤔🤔🤔,7,"['💨', '💨', '🤔', '🤔', '🤔']","['💨', '🤔']",True,5
+33,👉🏻👉🏻news report. This just in ….. wins in this district!,6,"['👉🏻', '👉🏻']",['👉🏻'],True,2
+34,🧡💙Let's go panthers!💙🧡,1,"['🧡', '💙', '💙', '🧡']","['💙', '🧡']",True,4
+35,Lunch time 😋,7,['😋'],['😋'],True,1
+36,WAKE up people,2,[],[],False,0
+37,new day,3,[],[],False,0
+38,Yay let go out 👠  👠,4,"['👠', '👠']",['👠'],True,2
+39,news flash! ,6,[],[],False,0
+40,Panthers win! 'Bout time!,7,[],[],False,0
+41,💥Breaking news!💥 today this is the latest update,11,"['💥', '💥']",['💥'],True,2
+42,👩🏽‍💻🍿👀 seeing this now?,13,"['👩🏽\u200d💻', '🍿', '👀']","['🍿', '👀', '👩🏽\u200d💻']",True,3
+43,😍🤩😍 Oh MY !!   soooooooooo EXCITING 🤪,16,"['😍', '🤩', '😍', '🤪']","['😍', '🤩', '🤪']",True,4
+44,My man bought me 🌹🌹🌹🌹 for each of my boys.,17,"['🌹', '🌹', '🌹', '🌹']",['🌹'],True,4
+45,Awhhhhhh I hate studying 😔📚👎🏻,20,"['😔', '📚', '👎🏻']","['👎🏻', '📚', '😔']",True,3
+46,Omg! 😂,24,['😂'],['😂'],True,1
+47,This just in. Check this link 👉someurl,31,['👉'],['👉'],True,1
+48,Black dog music 🎶  best beats in town,34,['🎶'],['🎶'],True,1
+49,🔁📡🔊 Attention!  🔊you did it.,43,"['🔁', '📡', '🔊', '🔊']","['📡', '🔁', '🔊']",True,4
+50,OMG is that for real 🤭🤭🤭 you have to be tough,52,"['🤭', '🤭', '🤭']",['🤭'],True,3
+51,Vacation time ✈️🏖🏝🏊‍♀️ 🌞🌞,69,"['✈️', '🏖️', '🏝️', '🏊\u200d♀️', '🌞', '🌞']","['✈️', '🌞', '🏊\u200d♀️', '🏖️', '🏝️']",True,6
+52,Done with my exams 💯,76,['💯'],['💯'],True,1
+53,My daughter is amazing 😘,92,['😘'],['😘'],True,1
+54,thank you! 😍😍,8,"['😍', '😍']",['😍'],True,2
+55,That bus better be filled with supportes 😆  🇺🇸vote today   🇺🇸 ⬇️ ,7,"['😆', '🇺🇸', '🇺🇸', '⬇️']","['⬇️', '🇺🇸', '😆']",True,4
+56,Spring flowers 💐🌷🌸🌹🌻,24,"['💐', '🌷', '🌸', '🌹', '🌻']","['🌷', '🌸', '🌹', '🌻', '💐']",True,5
+57,Click here  👉some url,88,['👉'],['👉'],True,1
+58,BS!!!! 🤬🤬🤬,8,"['🤬', '🤬', '🤬']",['🤬'],True,3
+59,🤣,1,['🤣'],['🤣'],True,1
+60,Too many to count for today. What a great turn out. Thank you everyone.,2,[],[],False,0
+61,All across the board  ☑️   No exceptions!!!    🙌,3,"['☑️', '🙌']","['☑️', '🙌']",True,2
+62,SCORE! 👏🏼,5,['👏🏼'],['👏🏼'],True,1
+63,Please do your part and vote today. Vote Blue or Red,6,[],[],False,0
+64,Whatcha doin today,7,[],[],False,0
+65,So done with this rain. Bring out the sun.,9,[],[],False,0
+66,🚨IMPORTANT! 🚨 Go Vote! Today.,11,"['🚨', '🚨']",['🚨'],True,2
+67,Thinking of you mom on this special Mother's day. ❤️🥰😘,13,"['❤️', '🥰', '😘']","['❤️', '😘', '🥰']",True,3
+68,Love the cupcakes at this bakery. Thank you Shula's 🍉🧁,16,"['🍉', '🧁']","['🍉', '🧁']",True,2
+69,🔵 Blue votes count  👉🏽👉🏾🗳,18,"['🔵', '👉🏽', '👉🏾', '🗳️']","['👉🏽', '👉🏾', '🔵', '🗳️']",True,4
+70,🤣no way,20,['🤣'],['🤣'],True,1
+71,First snow flakes of the year ❄️☃️,24,"['❄️', '☃️']","['☃️', '❄️']",True,2
+72,Go Blue! ⚾️🔷🔶,32,"['⚾', '🔷', '🔶']","['⚾', '🔶', '🔷']",True,3
+73,Music list  ✅ swift record ✅ mars single ✅ grande white diamond ✅ west tunes,34,"['✅', '✅', '✅', '✅']",['✅'],True,4
+74,time to go,44,[],[],False,0
+75, 🇺🇸🔴🇳🇱🔴🇺🇸TODAY YOU MUST VOTE  🔴⚪🔵USA!🔴⚪🔵,53,"['🇺🇸', '🔴', '🇳🇱', '🔴', '🇺🇸', '🔴', '⚪', '🔵', '🔴', '⚪', '🔵']","['⚪', '🇳🇱', '🇺🇸', '🔴', '🔵']",True,11
+76,🛬 soooo much jetlag 🥴 😴💤,70,"['🛬', '🥴', '😴', '💤']","['💤', '😴', '🛬', '🥴']",True,4
+77,What a lovely day 🌞,83,['🌞'],['🌞'],True,1
+78,👉Fake  👉news  👉Fakes,88,"['👉', '👉', '👉']",['👉'],True,3
+79,Black momma and proud.,92,[],[],False,0
+80,Let's get food 🍕,9,['🍕'],['🍕'],True,1
+81,Panthers win! 🔷🔹🔸🔶🏆🙌,1,"['🔷', '🔹', '🔸', '🔶', '🏆', '🙌']","['🏆', '🔶', '🔷', '🔸', '🔹', '🙌']",True,6
+82,Today!👇👇👇,3,"['👇', '👇', '👇']",['👇'],True,3
+83,some days 🤷🏼‍♀️,4,['🤷🏼\u200d♀️'],['🤷🏼\u200d♀️'],True,1
+84,Go orange and blue! Panthers you can do it 🟠🔵,5,"['\U0001f7e0', '🔵']","['🔵', '\U0001f7e0']",True,2
+85,Massive landslide today at the polls!,6,[],[],False,0
+86,what a jerk🤔 gonna be weird,7,['🤔'],['🤔'],True,1
+87,I agree w U  ❤ but for real?,8,['❤️'],['❤️'],True,1
+88,I am so excited it is completely filled.,9,[],[],False,0
+89,It's all fake!,10,[],[],False,0
+90,🚨TRAFFIC ALERT 🚨  Highway 1014 is blocked at Moore Ln. Police are on the scene. 🚗🚔,11,"['🚨', '🚨', '🚗', '🚔']","['🚔', '🚗', '🚨']",True,4
+91,All my black ladies where you at 👩🏽‍💼 It's time! See you soon ✝️,13,"['👩🏽\u200d💼', '✝️']","['✝️', '👩🏽\u200d💼']",True,2
+92,I love you 😊,16,['😊'],['😊'],True,1
+93,You must go VOTE👉🏾do it,19,['👉🏾'],['👉🏾'],True,1
+94,This pub is the best 🇬🇧✌🏻,24,"['🇬🇧', '✌🏻']","['✌🏻', '🇬🇧']",True,2
+95,Outta here ⚾️💫🌏,32,"['⚾', '💫', '🌏']","['⚾', '🌏', '💫']",True,3
+96,🌹💐 Happy mother's day 💐🌹,35,"['🌹', '💐', '💐', '🌹']","['🌹', '💐']",True,4
+97,Need I say more?,52,[],[],False,0
+98,At the zoo today 🐼,7,['🐼'],['🐼'],True,1
+99,🇺🇸🥰🤗  #VoteRed,61,"['🇺🇸', '🥰', '🤗']","['🇺🇸', '🤗', '🥰']",True,3
+100,Love to get snow ice at Rora's. Fruit punch 🍧 the best 😛 ,71,"['🍧', '😛']","['🍧', '😛']",True,2
+101,So much rain 🌧 🏳️‍🌈gonna be a rainbow,83,"['🌧️', '🏳️\u200d🌈']","['🌧️', '🏳️\u200d🌈']",True,2
+102,And there it is folks - homerun,89,[],[],False,0
+103,🍸🥃🧊Rossi on the rocks Happy Hour special start at 5 pm Tuesday.,99,"['🍸', '🥃', '\U0001f9ca']","['🍸', '🥃', '\U0001f9ca']",True,3
+104,Hold on  ⬅️ It's a repeat  ⬅️ ,10,"['⬅️', '⬅️']",['⬅️'],True,2
+105,😂 gonna be some trouble now,8,['😂'],['😂'],True,1
+106,💥Today is the day.,34,['💥'],['💥'],True,1
+107,failed my class now I can finally relax 😎,8,['😎'],['😎'],True,1
+108,Happy Mother's Day to all you moms out there 💐🤱🏽👶🏽👩🏽‍👧🏽‍👦🏽,13,"['💐', '🤱🏽', '👶🏽', '👩🏽\u200d👧🏽\u200d👦🏽']","['👩🏽\u200d👧🏽\u200d👦🏽', '👶🏽', '💐', '🤱🏽']",True,4
+109,No more rain 😎,9,['😎'],['😎'],True,1
+110,Mi madre! ❤️ Happy Mother's Day!,9,['❤️'],['❤️'],True,1
+111,Thinking of all you moms today on Mother's Day.,14,[],[],False,0
+112,He is so crazy! Did you see that goal 🥅 🏃🏻‍♂️,36,"['🥅', '🏃🏻\u200d♂️']","['🏃🏻\u200d♂️', '🥅']",True,2
+113,🤣🤣🤣🤣🤣🤣🤣,16,"['🤣', '🤣', '🤣', '🤣', '🤣', '🤣', '🤣']",['🤣'],True,7
+114,At shore lake in the park. Another great day on the water 🚣‍♂️🌊,52,"['🚣\u200d♂️', '🌊']","['🌊', '🚣\u200d♂️']",True,2
+115,Best happy hour! 🍸,7,['🍸'],['🍸'],True,1

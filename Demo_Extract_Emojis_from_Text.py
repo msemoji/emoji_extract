@@ -11,12 +11,7 @@
 # python library dependencies used in extractEmojis module are  regex, re, and Unicode_emojis_list.py
 # if re not on system do pip install re
 
-import importlib
-
 import extractEmojis
-
-
-importlib.reload(extractEmojis)
 
 
 # In[2]:
