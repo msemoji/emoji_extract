@@ -1,7 +1,7 @@
 # emoji_extract
 This repo contains Python code to extract emojis from text and show the emojis as a list and unique emoji list. It also includes examples of how to get the most used emoji in a dataset across rows or users.
 
-<p>The extractEmojis.py is the code to process the emojis in data using the Unicode v13 January 2020 emoji lists in the Unicode_emojis_list.py which is loaded automatically by extractEmojis.py. This list of emojis was compiled from Unicode:  https://unicode.org/Public/emoji/13.0/emoji-test.txt 
+<p>The extractEmojis.py is the code to process the emojis in data. It uses the re and regex libraries. May need to pip install re if you don't have it. This code also uses the Unicode v13 January 2020 emoji lists provided here in the Unicode_emojis_list.py which is loaded automatically by extractEmojis.py. This list of emojis was compiled from Unicode:  https://unicode.org/Public/emoji/13.0/emoji-test.txt 
 
 <p> This code can handle keycaps, flags, families, compound emojis, and modifiers just fine. 
 
