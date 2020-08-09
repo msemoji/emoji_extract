@@ -16,7 +16,6 @@ Code examples
 # list_of_all_v13_emojis = emojis.list_of_all_emojis
 
 
-
 # sample text to test
 some_text_string_maybe_with_emojis = "RT @atmention: 12 ** 👨🏾‍👩🏾‍👧🏾‍👦🏾 🗳❤️🇦🇺😃🟠 smiles🟠4️⃣🍎🇦 👪🏿 👩🏿‍💻 🗳🗳️"
 
@@ -68,6 +67,24 @@ def getEmojisFromText(string_of_text):
 def getUniqueEmojisFromEmojiList(emoji_list):    
     return sorted(list(set(emoji_list)))
     
+
+# function to get a list of emojis with counts
+def getUniqueEmojiWithCounts(list_of_lists_of_unique_emojis):
+    long_list_of_emojis_used = []
+    for sublist in list_of_lists_of_unique_emojis:
+        long_list_of_emojis_used += sublist
+    # unique emojis used
+    unique_emojis_used_in_dataset = sorted(list(set(long_list_of_emojis_used)))
+    # count of rows with that emoji
+    list_with_tuples_of_emojis_with_count_of_rows = []
+    for emoji in unique_emojis_used_in_dataset:
+        list_with_tuples_of_emojis_with_count_of_rows.append((emoji, long_list_of_emojis_used.count(emoji)))
+    # sort the list of tuples in descending order
+    most_used_emojis_with_cnt_rows = sorted(list_with_tuples_of_emojis_with_count_of_rows, key = lambda x: x[1], reverse=True)
+    return most_used_emojis_with_cnt_rows
+    
+
+
     
 # helper functions below to fix appearance of duplicate emojis used in getEmojisFromText
 # globals
