@@ -5,6 +5,7 @@
 # dependencies
 import re # if re not on system do pip install re
 import regex
+import ast
 
 import Unicode_emojis_list as emojis
 
@@ -21,10 +22,10 @@ some_text_string_maybe_with_emojis = "RT @atmention: 12 ** 👨🏾‍👩🏾�
 
 
 # Get list of emojis in order of appearance in text
-list_of_emojis_in_text = extractEmojis.getEmojisFromText(some_text_string_maybe_with_emojis)
+list_of_emojis_in_text = getEmojisFromText(some_text_string_maybe_with_emojis)
 
 # Get list of unique emojis in the emoji list, sorted
-list_of_unique_emojis_in_text = extractEmojis.getUniqueEmojisFromEmojiList(list_of_emojis_in_text)
+list_of_unique_emojis_in_text = getUniqueEmojisFromEmojiList(list_of_emojis_in_text)
 
 """
  
@@ -68,7 +69,13 @@ def getEmojisFromText(string_of_text):
     
 # function to get sorted list of unique emojis from list of emojis
 def getUniqueEmojisFromEmojiList(emoji_list):    
-    return sorted(list(set(emoji_list)))
+    if type(emoji_list)==list:
+        return sorted(list(set(emoji_list)))
+    else:
+        try:
+            return sorted(list(set(ast.literal_eval(emoji_list))))
+        except:
+            return []
     
 
 # function to get a list of emojis with counts
@@ -88,7 +95,7 @@ def getUniqueEmojiWithCounts(list_of_lists_of_unique_emojis):
     
 
 
-    
+# HELPER FUNCTION BELOW    
 # helper functions below to fix appearance of duplicate emojis used in getEmojisFromText
 # globals
 keycap = b'\\u20e3'.decode('unicode_escape')

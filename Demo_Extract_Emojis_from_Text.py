@@ -8,7 +8,7 @@
 
 # Code to process the emojis in text to return a list of emojis found
 
-# python library dependencies used in extractEmojis module are  regex, re, and Unicode_emojis_list.py
+# python library dependencies used in extractEmojis module are  ast, regex, re, and Unicode_emojis_list.py
 # if re not on system do pip install re
 
 import extractEmojis
@@ -66,7 +66,7 @@ df.head(10)
 # may take a while if large dataset (could take 40 minutes if millions of rows of tweets)
 df['emojis_list'] = df['text'].apply(extractEmojis.getEmojisFromText)
 
-# get sorted list of unique emojis in text so can compare
+# get sorted list of unique emojis in text, sorted so can compare
 df['unique_emojis_list'] = df['emojis_list'].apply(extractEmojis.getUniqueEmojisFromEmojiList)
 
 # make a quick check if emojis are present
@@ -162,6 +162,21 @@ df2['number_of_unique_emojis']=df2['unique_emojis_list'].str.len()
 
 # show distribution of number of unique emojis across this sample dataset
 df2['number_of_unique_emojis'].value_counts()
+
+
+# In[12]:
+
+
+# count of rows with same exact set of unique emojis
+# use astype(str) to treat the list object as a string
+df2['unique_emojis_list'].astype(str).value_counts()[:15]
+
+
+# In[13]:
+
+
+# count of users with same exact set of unique emojis
+users_aggregation_df['unique_emojis_used_list'].astype(str).value_counts()[:5]
 
 
 # In[ ]:
