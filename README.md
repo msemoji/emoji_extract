@@ -15,7 +15,7 @@ unique_emojis = extractEmojis.getUniqueEmojisFromEmojiList(emojis_list)<br>
 <br>
 list of unique emojis result is ['4️⃣', '❤️', '🇦', '🇦🇺', '🌹', '🍎', '👨🏾\u200d👩🏾\u200d👧🏾\u200d👦🏾', '👩🏿\u200d💻', '👪🏿', '🗳️', '😃']<br>
 
-<p> There may be differences with the way your device or web browser displays the emojis even when it is the correct Unicode emoji. Don't worry about it, it just is the way it is. When in doubt, you can alway refer to Unicode emoji charts or emojipedia.org to verify an emoji rendering and support for your device.
+<p> There may be differences with the way your device or web browser displays the emojis even when it is the correct Unicode emoji. Don't worry about it, it just is the way it is. When in doubt, you can alway refer to Unicode emoji charts https://unicode.org/emoji/charts/full-emoji-list.html or https://emojipedia.org/ to verify an emoji rendering and support for your device.
 
 <p> The demo code demonstrates how to process emojis in rows of data using pandas.Below is a screenshot showing the sample data text, emoji list, and unique emojis generated with this code.
  
