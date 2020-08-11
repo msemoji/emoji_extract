@@ -1,5 +1,5 @@
 # emoji_extract
-This repo contains Python 3 code to extract emojis from text, show emojis as a list and unique emoji list, and generate list of most used emojis with counts of use (e.g. rows or users). This also include demo code as .py and .ipynb.
+This repo contains Python 3 code and demos in both Python and Jupyter notebook to extract emojis from text, show emojis as a list and unique emoji list, and generate list of most used emojis with counts of use (e.g. rows or users). This also include demo code as .py and .ipynb.
 
 <p> This code can handles the latest emojis including keycaps, flags, families, "compound" emojis with components and modifiers just fine. 
 
