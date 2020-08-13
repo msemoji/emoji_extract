@@ -42,9 +42,41 @@ list_of_Unicode_emojis = emojis.list_of_emojis
 
 
 
+
+
+# repair unqualified emojis in text
+def repairEmojisInText(string_of_text):
+    if type(string_of_text)!=str:
+        string_of_text = str(string_of_text)
+    try:
+        sequences_list = regex.findall(r'\X', string_of_text) # break into sequences
+        emoji_list_w_numbers =list(filter(all_emojis_pattern.match, sequences_list)) # get emojis plus any numbers
+        # fix any numbers that are actually emoji keycaps in the text
+        exclude_numbers =  ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', "*", "#"]
+        emojis_found = []
+        for seq in emoji_list_w_numbers:
+            if seq not in exclude_numbers:
+                emojis_found.append(seq)
+        fixed_sequence_list = []
+        emoji_list = []
+        fixed_text = ''
+        for seq in sequences_list:
+            if seq in emojis_found:
+                fixed_emoji = fixDuplicateEmoji(seq)
+                fixed_sequence_list.append(fixed_emoji)
+                emoji_list.append(fixed_emoji)
+            else:
+                fixed_sequence_list.append(seq)
+        
+        fixed_text = ''.join(fixed_sequence_list)
+        return fixed_text
+    except:
+        return ''
+        
+
+
 # function to get list of emojis from text with fix for numbers from keycaps
 # it's kind of slow but effective
-
 def getEmojisFromText(string_of_text):
     try:  
         sequences_list = regex.findall(r'\X', string_of_text) # break into sequences
