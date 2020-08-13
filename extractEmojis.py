@@ -1,12 +1,14 @@
 #!/usr/bin/env python
 
 # Extract list of emojis and unique emojis from content
+# This Python 3 code is from August 2020 by mswartz2@gmu.edu
 
 # dependencies
 import re # if re not on system do pip install re
 import regex
 import ast
 
+# part of this repo
 import Unicode_emojis_list as emojis
 
 
@@ -40,39 +42,6 @@ all_emojis_pattern = re.compile('['+all_emojis_str+']')
 
 list_of_Unicode_emojis = emojis.list_of_emojis
 
-
-
-
-
-# repair unqualified emojis in text
-def repairEmojisInText(string_of_text):
-    if type(string_of_text)!=str:
-        string_of_text = str(string_of_text)
-    try:
-        sequences_list = regex.findall(r'\X', string_of_text) # break into sequences
-        emoji_list_w_numbers =list(filter(all_emojis_pattern.match, sequences_list)) # get emojis plus any numbers
-        # fix any numbers that are actually emoji keycaps in the text
-        exclude_numbers =  ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', "*", "#"]
-        emojis_found = []
-        for seq in emoji_list_w_numbers:
-            if seq not in exclude_numbers:
-                emojis_found.append(seq)
-        fixed_sequence_list = []
-        emoji_list = []
-        fixed_text = ''
-        for seq in sequences_list:
-            if seq in emojis_found:
-                fixed_emoji = fixDuplicateEmoji(seq)
-                fixed_sequence_list.append(fixed_emoji)
-                emoji_list.append(fixed_emoji)
-            else:
-                fixed_sequence_list.append(seq)
-        
-        fixed_text = ''.join(fixed_sequence_list)
-        return fixed_text
-    except:
-        return ''
-        
 
 
 # function to get list of emojis from text with fix for numbers from keycaps
@@ -109,7 +78,36 @@ def getUniqueEmojisFromEmojiList(emoji_list):
         except:
             return []
     
-
+# get new text that has repaired unqualified emojis in text
+def repairEmojisInText(string_of_text):
+    if type(string_of_text)!=str:
+        string_of_text = str(string_of_text)
+    try:
+        sequences_list = regex.findall(r'\X', string_of_text) # break into sequences
+        emoji_list_w_numbers =list(filter(all_emojis_pattern.match, sequences_list)) # get emojis plus any numbers
+        # fix any numbers that are actually emoji keycaps in the text
+        exclude_numbers =  ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', "*", "#"]
+        emojis_found = []
+        for seq in emoji_list_w_numbers:
+            if seq not in exclude_numbers:
+                emojis_found.append(seq)
+        fixed_sequence_list = []
+        emoji_list = []
+        fixed_text = ''
+        for seq in sequences_list:
+            if seq in emojis_found:
+                fixed_emoji = fixDuplicateEmoji(seq)
+                fixed_sequence_list.append(fixed_emoji)
+                emoji_list.append(fixed_emoji)
+            else:
+                fixed_sequence_list.append(seq)
+        
+        fixed_text = ''.join(fixed_sequence_list)
+        return fixed_text
+    except:
+        return ''
+        
+        
 # function to get a list of emojis with counts
 def getUniqueEmojiWithCounts(list_of_lists_of_unique_emojis):
     long_list_of_emojis_used = []
