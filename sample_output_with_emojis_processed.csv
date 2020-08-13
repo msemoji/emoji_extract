@@ -1,16 +1,16 @@
 rownum,text,userid,emojis_list,unique_emojis_list,emoji_present,number_of_emojis_used
-1,Show your hands panther fans 🤚,1,['🤚'],['🤚'],True,1
+1,Show your 🤚 hands panther fans 🤚,1,"['🤚', '🤚']",['🤚'],True,2
 2,@user92 @user14 so many people,2,[],[],False,0
-3,RT @user19 @user42 @user11 no foolin! ⬇️ He’s not playing. ,3,['⬇️'],['⬇️'],True,1
+3,🧡💙Let's go panthers!💙🧡,3,"['🧡', '💙', '💙', '🧡']","['💙', '🧡']",True,4
 4,4,0,[],[],False,0
 5,RT @here @there @everywhere #hashtag #emojitest is all 4️⃣ ❤️ more 🇦🇺 👨🏾‍👩🏾‍👧🏾‍👦🏾txt and more!!! https://www.url.com 🧵👨🏾‍👩🏾‍👧🏾‍👦🏾👩🏾‍💻👪🏿 🗳️🗳 😃 🟠https://www.url.com,0,"['4️⃣', '❤️', '🇦🇺', '👨🏾\u200d👩🏾\u200d👧🏾\u200d👦🏾', '🧵', '👨🏾\u200d👩🏾\u200d👧🏾\u200d👦🏾', '👩🏾\u200d💻', '👪🏿', '🗳️', '🗳️', '😃', '\U0001f7e0']","['4️⃣', '❤️', '🇦🇺', '👨🏾\u200d👩🏾\u200d👧🏾\u200d👦🏾', '👩🏾\u200d💻', '👪🏿', '🗳️', '😃', '\U0001f7e0', '🧵']",True,12
 6,,0,[],[],False,0
-7,Time for happy hour! Going to Rossi's @user103 https://www.url.com,4,[],[],False,0
+7,@user36 @user37 @user38 @user39 @user40 Today!👇👇👇  ,4,"['👇', '👇', '👇']",['👇'],True,3
 8,snowtastrophe out there be carefulz 🌨❄️,5,"['🌨️', '❄️']","['❄️', '🌨️']",True,2
-9,RT @user9 No Duh🤷🏻‍♂️ Who cares,89,['🤷🏻\u200d♂️'],['🤷🏻\u200d♂️'],True,1
+9,RT @user19 @user42 @user11 no foolin! ⬇️ He’s not playing. ,89,['⬇️'],['⬇️'],True,1
 10,This is my fav place 🍜🍲😋 ❤️,24,"['🍜', '🍲', '😋', '❤️']","['❤️', '🍜', '🍲', '😋']",True,4
 11,RT @user31 @user22 @user91  💥UPDATE! 💥 this breaking news just in that ,31,"['💥', '💥']",['💥'],True,2
-12,@user36 @user37 @user38 @user39 @user40 Today!👇👇👇  ,33,"['👇', '👇', '👇']",['👇'],True,3
+12,Time for happy hour! Going to Rossi's @user103 https://www.url.com,33,[],[],False,0
 13,@user2 everyone is so excited to be here at the rally,35,[],[],False,0
 14,☺️ 5 days left and anxiously waiting,52,['☺️'],['☺️'],True,1
 15,This place is so good. Best pizza and drinks ever.,62,[],[],False,0
@@ -22,14 +22,14 @@ rownum,text,userid,emojis_list,unique_emojis_list,emoji_present,number_of_emojis
 21,dirty cars 👉 wash them https://www.url.com @user54,88,['👉'],['👉'],True,1
 22,So much work so little time,24,[],[],False,0
 23,@user94 barbacoa wit suzm chili sauce! So good. So hot!  🌮🌶🥵you got me tony's tacos!,7,"['🌮', '🌶️', '🥵']","['🌮', '🌶️', '🥵']",True,3
-24,RT @user19 @user42 @user11 If you here for the rally raise your hands for blue 🤚🔵,2,"['🤚', '🔵']","['🔵', '🤚']",True,2
+24,RT @user19 @user42 @user11 If you here for the rally 🤚🔵 raise your hands for blue 🤚🔵,2,"['🤚', '🔵', '🤚', '🔵']","['🔵', '🤚']",True,4
 25,RT @user92 💪hoping he wins 🙏 💪vote red 🙏 💪vote now🙏  🔴,3,"['💪', '🙏', '💪', '🙏', '💪', '🙏', '🔴']","['💪', '🔴', '🙏']",True,7
 26,@user63 She forgot to bring it!!!,4,[],[],False,0
 27,RT @user31 @user22 @user91 🚨EMERGENCY ALERT🚨  Weather report flash flooding.,11,"['🚨', '🚨']",['🚨'],True,2
 28,she is going to rock this today 🔥💥🔥 so proud these days ⭐️❤️⭐️  ,13,"['🔥', '💥', '🔥', '⭐', '❤️', '⭐']","['❤️', '⭐', '💥', '🔥']",True,6
-29,RT @user49 Get out the Catholic vote today ✝️ ❤️ Vote Blue!🔵,15,"['✝️', '❤️', '🔵']","['✝️', '❤️', '🔵']",True,3
+29,RT @user49 Get out the Catholic  ✝️ ❤️  vote today🔵Vote Blue!🔵,15,"['✝️', '❤️', '🔵', '🔵']","['✝️', '❤️', '🔵']",True,4
 30,Coffee time ☕️🍩@user103,20,"['☕', '🍩']","['☕', '🍩']",True,2
-31,🚨UPDATE! It's all 💩so not happy 😡🥾🐄,31,"['🚨', '💩', '😡', '🥾', '🐄']","['🐄', '💩', '😡', '🚨', '🥾']",True,5
+31,🚨UPDATE! 🚨 It's all 💩so not happy 😡🥾🐄,31,"['🚨', '🚨', '💩', '😡', '🥾', '🐄']","['🐄', '💩', '😡', '🚨', '🥾']",True,6
 32,@user40 @user41 @user42 @user43 @user44 Today!👇👇👇,66,"['👇', '👇', '👇']",['👇'],True,3
 33,We love to celebrate at Rossi! 🍻🥂🎉,74,"['🍻', '🥂', '🎉']","['🍻', '🎉', '🥂']",True,3
 34,🌅 Good morning beautiful. Time to rise and shine and get stuff done.,91,['🌅'],['🌅'],True,1
@@ -73,7 +73,7 @@ rownum,text,userid,emojis_list,unique_emojis_list,emoji_present,number_of_emojis
 72,RT @user 97 🔵 Blue votes count  👉🏽👉🏾🗳,18,"['🔵', '👉🏽', '👉🏾', '🗳️']","['👉🏽', '👉🏾', '🔵', '🗳️']",True,4
 73,🤣no way,20,['🤣'],['🤣'],True,1
 74,First snow flakes of the year ❄️☃️ https://www.url.com,24,"['❄️', '☃️']","['☃️', '❄️']",True,2
-75,Go Blue! ⚾️🔷🔶,74,"['⚾', '🔷', '🔶']","['⚾', '🔶', '🔷']",True,3
+75,🔷Go Blue! ⚾️🔷🔶,74,"['🔷', '⚾', '🔷', '🔶']","['⚾', '🔶', '🔷']",True,4
 76,Music list  ✅ swift record ✅ mars single ✅ grande white diamond ✅ west tunes,34,"['✅', '✅', '✅', '✅']",['✅'],True,4
 77,time to go,44,[],[],False,0
 78,RT @user85  🇺🇸🔴🇳🇱🔴🇺🇸TODAY YOU MUST VOTE  🔴⚪🔵USA!🔴⚪🔵,53,"['🇺🇸', '🔴', '🇳🇱', '🔴', '🇺🇸', '🔴', '⚪', '🔵', '🔴', '⚪', '🔵']","['⚪', '🇳🇱', '🇺🇸', '🔴', '🔵']",True,11
@@ -85,7 +85,7 @@ rownum,text,userid,emojis_list,unique_emojis_list,emoji_present,number_of_emojis
 84,Panthers win! 🔷🔹🔸🔶🏆🙌,1,"['🔷', '🔹', '🔸', '🔶', '🏆', '🙌']","['🏆', '🔶', '🔷', '🔸', '🔹', '🙌']",True,6
 85,@user50 @user51 @user52 @user53 @user54 Today!👇👇👇,3,"['👇', '👇', '👇']",['👇'],True,3
 86,some days 🤷🏼‍♀️,4,['🤷🏼\u200d♀️'],['🤷🏼\u200d♀️'],True,1
-87,Go orange and blue! @user120 Panthers you can do it 🟠🔵,5,"['\U0001f7e0', '🔵']","['🔵', '\U0001f7e0']",True,2
+87, 🟠🔵Go orange and blue! 🟠🔵 @user120 Panthers you can do it 🟠🔵,5,"['\U0001f7e0', '🔵', '\U0001f7e0', '🔵', '\U0001f7e0', '🔵']","['🔵', '\U0001f7e0']",True,6
 88,Massive landslide today at the polls! Https://www.url.com,6,[],[],False,0
 89,RT @user9 what a jerk🤔 gonna be weird,89,['🤔'],['🤔'],True,1
 90,I agree w U @user76  ❤ but for real?,8,['❤️'],['❤️'],True,1
