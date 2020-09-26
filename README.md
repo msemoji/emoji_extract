@@ -3,7 +3,7 @@ This repo contains Python 3 code and demos in both Python and Jupyter notebook t
 
 <p> This code can handles the latest emojis including keycaps, flags, families, "compound" emojis with components and modifiers just fine. 
 
-<p>The extractEmojis.py is the code to process the emojis in data. It uses the ast, re, and regex libraries. May need to pip install those three if you don't have them. This code also uses the Unicode v13 January 2020 emoji lists provided here in the Unicode_emojis_list.py which is loaded automatically by extractEmojis.py. This list of emojis was compiled from Unicode:  https://unicode.org/Public/emoji/13.0/emoji-test.txt 
+<p>The extractEmojis.py is the code to process the emojis in data. It uses the ast, re, and regex libraries. May need to pip install those three if you don't have them. This code also uses the Unicode v13.1 September 2020 emoji lists provided here in the Unicode_emojis_list.py which is loaded automatically by extractEmojis.py. This list of emojis was compiled from Unicode:  https://unicode.org/Public/emoji/13.1/emoji-test.txt 
 
 <p>To use the code, examples are provided in Demo_Extract_Emojis_from_Text.
 <br>
