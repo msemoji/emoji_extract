@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+
 # coding: utf-8
 
 # # Example to show how to extract emojis in text
@@ -19,14 +19,20 @@ import extractEmojis
 
 # Demo of basic code on some text with or without emojis
 
-some_text = "Some emoji 👨🏾‍👩🏾‍👧🏾‍👦🏾 🗳❤️🇦🇺😃🌹 smiles🌹4️⃣🍎🇦 👪🏿 👩🏿‍💻 🗳🗳️"
+some_text = "Some emoji 👨🏾‍👩🏾‍👧🏾‍👦🏾 🗳❤️🇦🇺😃🌹 smiles🌹4️⃣🍎🇦 👪🏿 👩🏿‍💻 🗳🗳️❤️‍🔥"
+new_emoji_test = "new emoji2 ❤️‍🔥" # from latest v13.1
+
 
 emojis_list = extractEmojis.getEmojisFromText(some_text)
 
 unique_emojis = extractEmojis.getUniqueEmojisFromEmojiList(emojis_list)
 
+
 print('emojis in text', emojis_list)
 print('unique emojis', unique_emojis)
+
+print('new emoji', extractEmojis.getEmojisFromText(new_emoji_test))
+
 
 # Note sometimes the emojis may not render on your device properly, 
 # eventhough the emoji is still correct
@@ -177,10 +183,4 @@ df2['unique_emojis_list'].astype(str).value_counts()[:15]
 
 # count of users with same exact set of unique emojis
 users_aggregation_df['unique_emojis_used_list'].astype(str).value_counts()[:5]
-
-
-# In[ ]:
-
-
-
 
